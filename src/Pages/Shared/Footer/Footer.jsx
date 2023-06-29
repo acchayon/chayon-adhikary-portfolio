@@ -3,7 +3,7 @@ const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-neutral-700 text-primary-content">
             <div>
-               <img className="w-2/5 rounded-full" src="https://i.ibb.co/zXN82vH/Brown-Beige-Aesthetic-Minimalist-Font-Initials-Logo.png" alt="" />
+               <img className="w-2/6 rounded-full" src="https://i.ibb.co/zXN82vH/Brown-Beige-Aesthetic-Minimalist-Font-Initials-Logo.png" alt="" />
                 <p className="font-bold">
                     <span className="text-2xl">Chayon Adhikary</span> <br /><span className="text-xl">Junior Front-End Developer since - 2022 </span>
                 </p>
