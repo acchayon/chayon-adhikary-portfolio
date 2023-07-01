@@ -1,0 +1,14 @@
+.wave {
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    background: #7d7de9; 
+  }
+  
+  .paragraph {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background: #61038c;
+  }
+  

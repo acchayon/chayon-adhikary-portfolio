@@ -1,6 +1,7 @@
-.photo{
-    background-image: url(https://i.ibb.co/D48kg5T/header-bg.png);
-    background-position: fixed;
-    
-    
-}
+.border-gradient-cyan {
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #44488d, #1b14cd);
+    border-image-slice: 1;
+  }  
