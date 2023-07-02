@@ -1,8 +1,9 @@
 
 const Navbar = () => {
     const navItem = <>
-        <li className="text-xl mr-10">Chayon Adhikary</li>
-        <li className="text-xl">adhikaryac81@gmail.com</li>
+        <li className="text-xl mr-10"><a href="#skills">Skills</a></li>
+        <li className="text-xl mr-10"><a href="#tech">Tech</a></li>
+        <li className="text-xl"><a href="#projects">Projects</a></li>
     </>
     return (
         <div className="navbar bg-base-100">

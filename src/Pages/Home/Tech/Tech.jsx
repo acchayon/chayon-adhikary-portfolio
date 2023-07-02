@@ -1,7 +1,7 @@
 
 const Tech = () => {
     return (
-        <div className="w-4/5 mx-auto mb-10">
+        <div className="w-4/5 mx-auto mb-10" id="tech">
             <h3 className="text-center text-3xl mb-8 font-bold">My Tech Friends</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-3">
                 <div className="w-3/5 hover:translate-y-5 rounded-2xl ">

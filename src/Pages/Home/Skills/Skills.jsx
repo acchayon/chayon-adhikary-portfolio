@@ -13,7 +13,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className='mb-10'>
+        <div className='mb-10' id='skills'>
             <h3 className='text-3xl font-bold text-center mb-7'>My Skills</h3>
 
             <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 w-5/6 mx-auto'>
