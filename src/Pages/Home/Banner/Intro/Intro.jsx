@@ -37,6 +37,7 @@ const Intro = () => {
                     className='btn btn-active btn-primary mt-5'
                 >Get Resume <FaDownload />
                 </button>
+                <button className="btn btn-primary mx-5"><a href="#contact">Hire Me</a></button>
             </Slide>
         </div>
     );

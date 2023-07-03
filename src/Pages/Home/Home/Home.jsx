@@ -1,5 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import ConnectMe from "../ConnectMe/ConnectMe";
+import ContactForm from "../ContactForm/ContactForm";
 import MyProjects from "../MyProjects/MyProjects";
 import Skills from "../Skills/Skills";
 import Tech from "../Tech/Tech";
@@ -21,10 +23,12 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <ConnectMe></ConnectMe>
             <About></About>  
             <Tech></Tech>
             <Skills></Skills>  
             <MyProjects></MyProjects>
+            <ContactForm></ContactForm>
         </div>
     );
 };
