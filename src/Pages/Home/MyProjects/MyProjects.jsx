@@ -13,7 +13,7 @@ const MyProjects = () => {
 
     return (
         <div className="mt-10 mb-10">
-            <h3 className="text-3xl text-center font-bold">SHow My Top Projects</h3>
+            <h3 className="text-3xl text-center font-bold">Show My Top Projects</h3>
             <div className="mt-10 ">
                 {/* {
                     projects.map(project => <Projects key={project.id}></Projects>)
