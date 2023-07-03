@@ -2,7 +2,10 @@ import { FaDownload } from 'react-icons/Fa';
 import { Zoom, Slide } from 'react-reveal';
 
 
+
 const Intro = () => {
+
+    
 
     const handleDownloadResume = () => {
         const resumeUrl = '/public/chayon-adhikary-resume.pdf';
@@ -10,7 +13,7 @@ const Intro = () => {
         link.href = resumeUrl;
         link.setAttribute('download', 'chayon-adhikary-resume.pdf');
         document.body.appendChild(link);
-        link.click(); 
+        link.click();
 
         document.body.removeChild(link);
 
@@ -20,15 +23,17 @@ const Intro = () => {
     return (
         <div className="w-4/5 mx-auto mb-10">
             <Slide top>
+
                 <h3 className='text-6xl font-bold'>
-                    <span className='text-blue-600'>Hey,,, I'm</span> Chayon Adhikary
+
+                    <span className='text-blue-600'>Hey,,, I'm</span> <span className='font-bold text-blue'>Chayon Adhikary</span> 
                 </h3>
             </Slide>
             <Zoom delay={500}>
                 <p className='mt-5 text-3xl font-semibold'>
                     <span>Transforming visions into digital</span> <br />
                     <span>realities through elegant web development</span>
-                    
+
                 </p>
             </Zoom>
             <Slide bottom delay={1000}>
@@ -44,3 +49,54 @@ const Intro = () => {
 };
 
 export default Intro;
+
+
+
+
+// import React, { useEffect, useState } from 'react';
+// import { FaDownload } from 'react-icons/fa';
+// import { Zoom, Slide } from 'react-reveal';
+// import Typewriter from 'react-simple-typewriter';
+
+// const Intro = () => {
+//   const handleDownloadResume = () => {
+//     const resumeUrl = '/public/chayon-adhikary-resume.pdf';
+//     const link = document.createElement('a');
+//     link.href = resumeUrl;
+//     link.setAttribute('download', 'chayon-adhikary-resume.pdf');
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+//   };
+
+//   const name = 'Chayon Adhikary';
+
+//   return (
+//     <div className="w-4/5 mx-auto mb-10">
+//       <Slide top>
+//         <h3 className='text-6xl font-bold'>
+//           <span className='text-blue-600'>Hey,,, I'm</span> 
+//           <span className='font-bold text-blue'>
+//             <Typewriter words={name.split(' ')} loop={false} cursor color="#000" />
+//           </span>
+//         </h3>
+//       </Slide>
+//       <Zoom delay={500}>
+//         <p className='mt-5 text-3xl font-semibold'>
+//           <span>Transforming visions into digital</span> <br />
+//           <span>realities through elegant web development</span>
+//         </p>
+//       </Zoom>
+//       <Slide bottom delay={1000}>
+//         <button onClick={handleDownloadResume} className='btn btn-active btn-primary mt-5'>
+//           Get Resume <FaDownload />
+//         </button>
+//         <button className="btn btn-primary mx-5">
+//           <a href="#contact">Hire Me</a>
+//         </button>
+//       </Slide>
+//     </div>
+//   );
+// };
+
+// export default Intro;

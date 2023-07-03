@@ -4,7 +4,7 @@ import { Fade } from 'react-reveal';
 
 const Photo = () => {
     return (
-        <div className=' min-h-screen'>
+        <div className=' md:min-h-screen'>
             <div className='photo'>
                 <Fade duration={3000} delay={1000}>
                     <img
